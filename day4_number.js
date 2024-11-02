@@ -56,7 +56,7 @@ const randomNumByRange2 = Math.floor(Math.random() * (max - min + 1) + min)
 
 
 //ceil , basically it does the number closest to it, means it create the number nearest greater than given number or equal to given number
-// in simple word ceil gives ceiling value like floor() floor value and round make the number in round figure
+// in simple words ceil gives greatest nearest value like floor() smallest nearest value and round make the number in round figure
 // ceil, floor, round
 
 
