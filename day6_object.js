@@ -95,5 +95,46 @@ const Obj4 = {
 //spreadibg in Object  -> It is again most used method in object and array
 
 const Obj5 = {...Obj3, ...Obj4}
-console.log(Obj5);
+// console.log(Obj5);
+
+
+
+//Multiple objects in an array
+
+const forMultiObj = [
+    {
+        id : 1,
+        email : "m@gmail.com"
+    },
+    {
+        id : 2,
+        email : "a@gmail.com"
+    },
+    {
+        id : 3,
+        email : "b@gmail.com"
+    },
+    {
+        id : 4,
+        email : "c@gmail.com"
+    },
+]
+
+// console.log(forMultiObj[2].email);
+
+
+
+//keys and values opration
+
+//we can store both in an array so easely we can operate and make loop
+
+// console.log(Object.keys(Obj1));
+// console.log(Object.values(Obj1));
+// console.log(Object.entries(Obj1)); // it convertes one key and value in a single array in main array
+
+
+//checking key if available or not
+
+// console.log(Obj1.hasOwnProperty("name")); // true
+// console.log(Obj1.hasOwnProperty("roll")); //false
 
