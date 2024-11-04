@@ -138,3 +138,10 @@ const forMultiObj = [
 // console.log(Obj1.hasOwnProperty("name")); // true
 // console.log(Obj1.hasOwnProperty("roll")); //false
 
+
+
+//de-structuring
+
+const {name :{fullName : {firstName}}} = Obj2
+
+// console.log(firstName);
