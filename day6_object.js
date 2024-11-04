@@ -144,4 +144,4 @@ const forMultiObj = [
 
 const {name :{fullName : {firstName}}} = Obj2
 
-// console.log(firstName);
+console.log(firstName);
