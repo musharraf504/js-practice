@@ -36,14 +36,14 @@ function add(num1, num2){
 
 // handling undefined
 
-// function isLogIn(userName){
-//     if(userName === undefined){
-//         return(`Please enter user name!`);
-//     }
+function isLogIn(userName){
+    if(userName === undefined){
+        return(`Please enter user name!`);
+    }
 
-//     return (`The user name is ${userName}!`);
+    return (`The user name is ${userName}!`);
     
-// }
+}
 
 // console.log(isLogIn("Musharraf"));
 
@@ -55,11 +55,11 @@ function add(num1, num2){
 
 // also handle the empty data like -> ""
 
-// function isLogIn(userName){
-//     if(!userName) return `Please enter user name!`
+function isLogIn(userName){
+    if(!userName) return `Please enter user name!`
 
-//     return `The user name is ${userName}`
-// }
+    return `The user name is ${userName}`
+}
 
 // console.log(isLogIn(""));
 // console.log(isLogIn());
