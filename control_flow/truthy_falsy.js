@@ -3,13 +3,13 @@
 // const userEmail = "musharraf.dev@gmai.com"
 const userEmail = ""
 
-// if(userEmail){
-//     console.log(`User email found -> ${userEmail}!`);
+if(userEmail){
+    console.log(`User email found -> ${userEmail}!`);
     
-// }else {
-//     console.log(`User email not found!`);
+}else {
+    console.log(`User email not found!`);
     
-// }
+}
 
 
 // all falsy values are given below :
@@ -37,7 +37,7 @@ if (emails.length === 0) {
 
 const empObj = {}
 if (Object.keys(empObj).length === 0) {
-    // console.log(`Object is Empty`);
+    console.log(`Object is Empty`);
     
 }
 
