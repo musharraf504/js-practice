@@ -1,1 +1,1 @@
-#A JavaScript Repo for practice and revising JS
+A JavaScript Repo for practice and revising JS
